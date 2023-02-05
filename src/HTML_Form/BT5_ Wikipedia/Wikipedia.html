@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table 5</title>
+    <style>
+        header img {
+            width: 350px;
+            height: 80px;
+        }
+
+        ul {
+            list-style-type: none;
+            align-self: center;
+            display: inline-block;
+            margin: 3px;
+        }
+
+        li {
+            float: left;
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .underline-row td {
+            border-bottom: 1px solid gray;
+        }
+
+        #header {
+            border: 1px solid gray;
+            text-align: center;
+            width: 100%;
+        }
+
+        #articles {
+            border: 0;
+            border-collapse: collapse;
+        }
+
+        #articles table {
+            height: 350px;
+            text-align: left;
+            border: 1px solid gray;
+        }
+
+        #articles td {
+            width: 50%;
+        }
+
+        #articles ul {
+            align-self: left;
+            margin: 0;
+        }
+
+        #bestImage {
+            border: 1px solid gray;
+            text-align: left;
+        }
+
+        #bestImage table {
+            border-spacing: 20px;
+        }
+
+        #bestImage td.count {
+            width: 15%;
+            background-color: beige;
+            border-bottom: 3px solid red;
+        }
+
+        #bestImage td.count b {
+            width: 15%;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+
+
+        #statistics {
+            border: 1px solid gray;
+            text-align: left;
+        }
+
+        #statistics table {
+            border-spacing: 20px;
+        }
+
+        #statistics td.count {
+            width: 15%;
+            background-color: beige;
+            border-bottom: 3px solid red;
+        }
+
+        #statistics td.count b {
+            width: 15%;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./images/wikipedia_logo_1.png" alt="logo">
+            <input type="text" placeholder="Tìm kiếm trên Wikipedia">
+            Tạo Tài Khoản
+            ...
+        </div>
+        <table id="header">
+            <tr>
+                <th>
+                    <h1>WIKIPEDIA TIẾNG VIỆT</h1>
+                </th>
+                <td>1.280.661 bài viết và 896.467 thành viên</td>
+            </tr>
+            <tr class="underline-row">
+                <td>Bạn chính là tác giả của Wikipedia</td>
+                <td>
+                    <ul>
+                        <li><a href="#">Tạo bài</a></li>
+                        <li><a href="#">Sửa bài</a></li>
+                        <li><a href="#">Tải hình</a></li>
+                        <li><a href="#">Quy tắc</a></li>
+                        <li><a href="#">Đặt câu hỏi</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><b>Bài viết:</b></li>
+                        <li><a href="#">Tra cứu</a></li>
+                        <li><a href="#">Bài mới</a></li>
+                        <li><a href="#">Hỏi đáp</a></li>
+                        <li><a href="#">Thỉnh cầu</a></li>
+                        <li><a href="#">Thư viện</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><b>Trợ giúp:</b></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Giúp đỡ</a></li>
+                        <li><a href="#">Hướng dẫn</a></li>
+                        <li><a href="#">Chỗ thử</a></li>
+                        <li><a href="#">Guestbook</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <br>
+        <br>
+        <table id="articles">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="./images/star.png" width="44" height="44">
+                                Bài viết chọn lọc
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Lịch sử sinh học là nghiên cứu lịch sử về thế giới sống từ thời cổ đại đến hiện đại.
+                                    Mặc dù
+                                    khái
+                                    niệm sinh học với tư cách là một lĩnh vực độc lập chỉ mới xuất hiện trong thế kỷ 19,
+                                    ngành
+                                    khoa
+                                    học này đã có tiền đề trong nhiều lĩnh vực như y học, dược học cho đến lịch sử tự
+                                    nhiên, với
+                                    nguồn gốc từ tận nền y học Ấn Độ cổ đại Ayurveda, y học Ai Cập cổ đại và các tác
+                                    phẩm của
+                                    Aristotle và Galen trong thế giới Hy-La. Các tác phẩm cổ đại được phát triển thêm
+                                    trong thời
+                                    kỳ
+                                    Trung Cổ bởi các thầy thuốc Hồi giáo và các học giả như Avincenna. Trong thời kỳ
+                                    Phục hưng
+                                    và
+                                    đầu thời kỳ hiện đại, những tư tưởng sinh học đã được cách mạng hóa ở châu Âu nhờ
+                                    những quan
+                                    tâm
+                                    được làm mới lại trong chủ nghĩa kinh nghiệm và việc phát hiện nhiều sinh vật mới
+                                    lạ.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>[ <a href="#"><b>Đọc tiếp</b></a> ]</td>
+                        </tr>
+                        <tr class="underline-row">
+                            <td>
+                                <ul>
+                                    <li>Mới chọn:</li>
+                                    <li><a href="#">Rewrite</a></li>
+                                    <li><a href="#">Vẻ đẹp Mỹ</a></li>
+                                    <li><a href="#">HMS New Zealand</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><b>Lưu trữ</b></li>
+                                    <li><b>Thêm bài mới</b></li>
+                                    <li><b>Ứng cử viên</b></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="./images/question.png" width="44" height="44">
+                                Bạn có biết
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                <ul style="list-style-type: circle">
+                                    <li>…vòng xoay tại giao lộ Nguyễn Huệ – Lê Lợi được xem là vòng xoay đầu tiên
+                                        tại Việt Nam?
+                                    </li>
+                                    <li>…công thức Viète được coi là công thức đánh dấu sự khởi đầu của ngành giải
+                                        tích?</li>
+                                    <li>…với chiều dài hơn 2.800 km, tuyến xe buýt từ Medan đến Jember của Antar
+                                        Lintas Sumatera
+                                        là tuyến xe buýt dài nhất ở Indonesia?</li>
+                                    <li>ca sĩ kiêm sáng tác nhạc Nakajima Miyuki từng tham gia vào Hội đồng ngôn ngữ
+                                        quốc gia
+                                        Nhật Bản, trực thuộc Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ?
+                                    </li>
+                                </ul>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="underline-row">
+                            <td>Từ những <a href="#"><b>bài viết mới</b></a> của Wikipedia</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><b>Lưu trữ</b></li>
+                                    <li><b>Thêm bài mới</b></li>
+                                    <li><b>Ứng cử viên</b></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="./images/calendar.png" width="44" height="44">
+                                Ngày này năm xưa
+                            </th>
+                        </tr>
+                        <tr class="underline-row">
+                            <td>
+                                <p>
+                                    1 tháng 2: Lễ hội Imbolc tại Ireland, Scotland và đảo Man.
+                                <ul style="list-style-type: circle">
+                                    <li>1662 – Frederick Coyett ký vào thư đầu hàng Trịnh Thành Công, kết thúc thời
+                                        kỳ Hà Lan
+                                        cai trị Đài Loan .
+                                    </li>
+                                    <li>1790 – Phiên họp đầu tiên của Tối cao Pháp viện Hoa Kỳ được tiến hành tại
+                                        thành phố New
+                                        York.</li>
+                                    <li>1958 – Cộng hòa Ả Rập Thống nhất được hình thành trên cơ sở liên minh giữa
+                                        Cộng hòa Ai
+                                        Cập và Cộng hòa Syria.</li>
+                                </ul>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><b>Lưu trữ</b></li>
+                                    <li><b>Thêm bài mới</b></li>
+                                    <li><b>Ứng cử viên</b></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="./images/book.png" width="44" height="44">
+                                Các lĩnh vực
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Khoa học tự nhiên</b>
+                                <br>
+                                <ul>
+                                    <li><a href="#">Địa chất học</a></li>
+                                    <li><a href="#">Địa lý học</a></li>
+                                    <li><a href="#">Hoá học</a></li>
+                                    <li><a href="#">Khoa học máy tính</a></li>
+                                    <li><a href="#">Logic</a></li>
+                                    <li><a href="#">Sinh học</a></li>
+                                    <li><a href="#">Thiên văn</a></li>
+                                    <li><a href="#">Vật lý học</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Khoa học xã hội</b>
+                                <br>
+                                <ul>
+                                    <li><a href="#">Chính trị học</a></li>
+                                    <li><a href="#">Giáo dục</a></li>
+                                    <li><a href="#">Kinh tế học</a></li>
+                                    <li><a href="#">Lịch sử</a></li>
+                                    <li><a href="#">Luật pháp</a></li>
+                                    <li><a href="#">Ngôn ngữ học</a></li>
+                                    <li><a href="#">Thần học</a></li>
+                                    <li><a href="#">Triết học</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="underline-row">
+                            <td>
+                                <b>Công nghiệp</b>
+                                <br>
+                                <ul>
+                                    <li><a href="#">Cơ học</a></li>
+                                    <li><a href="#">Giáo dục</a></li>
+                                    <li><a href="#">Điện tử học</a></li>
+                                    <li><a href="#">Giao thông</a></li>
+                                    <li><a href="#">Kiến trúc</a></li>
+                                    <li><a href="#">Năng lượng</a></li>
+                                    <li><a href="#">Người máy</a></li>
+                                    <li><a href="#">Nông nghiệp</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><b>Lưu trữ</b></li>
+                                    <li><b>Thêm bài mới</b></li>
+                                    <li><b>Ứng cử viên</b></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <table id=bestImage>
+            <tr>
+                <th><img src="./images/star.png" width="44" height="44">
+                    Hình ảnh chọn lọc
+                </th>
+            </tr>
+            <tr class="underline-row">
+                <td colspan="3">
+                    <img src="./images/bonsai.png" alt="bonsai.png" width="440" height="440">
+                </td>
+            </tr>
+            <hr>
+            <tr>
+                <td>Lưu trữ</td>
+                <td>Thêm hình ảnh chọn lọc</td>
+                <td>Cập nhật</td>
+            </tr>
+        </table>
+
+        <table id="statistics">
+            <tr>
+                <th>
+                    <img src="./images/pen.png" width="44" height="44">
+                    Cải thiện nội dung
+                </th>
+            </tr>
+            <tr class="underline-row">
+                <td>
+                    <table>
+                        <tr>
+                            <td class="count">
+                                <b>1.305</b> bài
+                                <br> dịch chất lượng kém
+                            </td>
+                            <td class="count">
+                                <b>2.190</b> bài
+                                <br> cần biên tập lại
+                            </td>
+                            <td rowspan="4">
+                                <b>Tham gia Wikipedia</b>
+                                <br>
+                                <img src="./images/wikipedia_logo.png" width="115" height="100">
+                                <br>
+                                Wikipedia là dự án bách khoa toàn thư mở, đa ngôn ngữ mà mọi người đều có thể tham gia
+                                đóng
+                                góp. Mục tiêu của Wikipedia là xây dựng một bách khoa toàn thư hoàn chỉnh, chính xác và
+                                trung lập.
+                                <br>
+                                <br>
+                                Sự phát triển của Wikipedia tiếng Việt phụ thuộc vào sự tham gia của bạn. Dù là tạo một
+                                bài
+                                mới, thêm nội dung, sửa lỗi chính tả hay bổ sung hình ảnh minh họa, thì bạn cũng đã góp
+                                phần
+                                xây dựng để Wikipedia tiếng Việt ngày một phát triển.
+                                <br>
+                                <button>Tham gia</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="count">
+                                <b>6.024</b> bài
+                                <br> cần thêm nguồn
+                            </td>
+                            <td class="count">
+                                <b>384</b> bài
+                                <br> chưa rõ độ nổi bật
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="count">
+                                <b>382</b> bài
+                                <br> lỗi thời
+                            </td>
+                            <td class="count">
+                                <b>42.968</b> bài
+                                <br> hỏng liên kết
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="count">
+                                <b>67</b> bài
+                                <br> chất lượng kém
+                            </td>
+                            <td class="count">
+                                <b>42.968</b> bài
+                                <br> có đề mục cần mở rộng
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><b>Quản lý Wikipedia</b></li>
+                        <li><b>Liên hệ bảo quản viên</b></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <br>
+        <br>
+        <hr style="border: 0.5px dotted">
+        <p style="text-align: center">
+            Wikipedia trực thuộc <a href="https://wikimediafoundation.org/">Wikimedia Foundation</a>, một tổ chức
+            phi lợi nhuận cũng đồng thời điều hành nhiều dự án khác. Các <a
+                href="https://wikimediafoundation.org/our-work/wikimedia-projects/">dự án</a> này hoặc là đa ngôn
+            ngữ hoặc đã có phiên bản tiếng Việt.
+        </p>
+        </div>
+</body>
+
+</html>
