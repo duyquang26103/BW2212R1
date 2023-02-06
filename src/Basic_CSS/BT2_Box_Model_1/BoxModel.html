@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model 1</title>
     <style>
-        div {
+        .outside {
             margin: 10px;
             border: 15px solid green;
             padding: 40px;
             color: brown;
             width: fit-content;
+        }
+
+        .inside {
             background-color: lightseagreen;
+            text-align: center;
+            color: brown;
         }
     </style>
 </head>
 
 <body>
-    <div>Web Programming</div>
+    <div class="outside">
+        <div class="inside">Web <br>
+            Programming</div>
+    </div>
 </body>
 
 </html>
