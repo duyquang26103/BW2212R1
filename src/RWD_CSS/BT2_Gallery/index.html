@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        main div {
+            display: flex;
+        }
+
+        .col-3 {
+            flex-basis: 25%;
+        }
+
+        .col-12 {
+            flex-basis: 100%;
+        }
+
+        .gallery {
+            display: block;
+            text-align: center;
+            border: 1px solid #ccc;
+            margin: 5px;
+        }
+
+        .gallery div {
+            padding: 15px;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width:700px) {
+            main div {
+                display: inline-block;
+            }
+
+            .col-md-6 {
+                float: left;
+                width: 48%;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            main div {
+                display: inline-block;
+            }
+
+            .col-sm-6 {
+                float: left;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Image Gallery</h1>
+        <h3>Resize the browser window to see the effect.</h3>
+    </header>
+    <main>
+        <div class="col-12">
+            <div class="gallery col-3 col-md-6 col-sm-6">
+                <a href="./img/img_fjords.jpeg" target="_blank">
+                    <img src="./img/img_fjords.jpeg" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery col-3 col-md-6 col-sm-6">
+                <a href="./img/img_forest.jpeg" target="_blank">
+                    <img src="./img/img_forest.jpeg" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery col-3 col-md-6 col-sm-6">
+                <a href="./img/img_lights.jpeg" target="_blank">
+                    <img src="./img/img_lights.jpeg" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery col-3 col-md-6 col-sm-6">
+                <a href="./img/img_mountains.jpeg" target="_blank">
+                    <img src="./img/img_mountains.jpeg" alt="Trolltunga Norway">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+            700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images
+            side by side. For screens smaller than 500px, the images will stack vertically (100%).
+        </div>
+    </footer>
+</body>
+
+</html>
