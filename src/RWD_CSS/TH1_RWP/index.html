@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-color: #f1f1f1;
+            padding: 15px;
+        }
+
+        main {
+            overflow: auto;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+            font-size: 12px;
+        }
+
+        .col-1 {
+            width: 8.33%;
+            float: left;
+        }
+
+        .col-2 {
+            width: 15.66%;
+            float: left;
+        }
+
+        .col-3 {
+            width: 24%;
+            float: left;
+        }
+
+        .col-4 {
+            float: left;
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+            float: left;
+        }
+
+        .col-6 {
+            width: 50%;
+            float: left;
+        }
+
+        .col-7 {
+            width: 58.33%;
+            float: left;
+        }
+
+        .col-8 {
+            width: 66.66%;
+            float: left;
+        }
+
+        .col-9 {
+            width: 75%;
+            float: left;
+        }
+
+        .col-10 {
+            width: 83.33%;
+            float: left;
+        }
+
+        .col-11 {
+            width: 91.66%;
+            float: left;
+        }
+
+        .col-12 {
+            width: 100%;
+            float: left;
+        }
+
+        .menu .menu-item {
+            padding-bottom: 10px;
+            border-bottom: gray 1px solid;
+        }
+
+        .content {
+            margin: auto 15px;
+        }
+
+        .right {
+            background-color: #add8e6;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            /* for tablet */
+            .col-md-3 {
+                width: 24%;
+                float: left;
+            }
+
+            .col-md-9 {
+                width: 75%;
+                float: left;
+            }
+
+            .col-md-12 {
+                width: 100%;
+                float: left;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .col-sm-12 {
+                width: 100%;
+                float: left;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family:Verdana;">
+    <header>
+        <h1>Cinque Terre</h1>
+        <h3>Resize the browser window</h3>
+    </header>
+
+    <main>
+        <div class="menu col-3 col-md-3 col-sm-12">
+            <div class="menu-item">The Walk</div>
+            <div class="menu-item">Transport</div>
+            <div class="menu-item">History</div>
+            <div class="menu-item">Gallery</div>
+        </div>
+
+        <div class="content col-7 col-md-9 col-sm-12">
+            <h2>The Walk</h2>
+            <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour
+                depending on the weather conditions and your physical shape.</p>
+            <img src="./thewall.png" style="width:30%">
+        </div>
+
+        <div class="right col-2 col-md-12 col-sm-12">
+            <h2>What?</h2>
+            <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+            <h2>Where?</h2>
+            <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+            <h2>Price?</h2>
+            <p>The Walk is free!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser
+            window to see the
+            content respond to the resizing.</div>
+    </footer>
+
+
+</body>
+
+</html>
