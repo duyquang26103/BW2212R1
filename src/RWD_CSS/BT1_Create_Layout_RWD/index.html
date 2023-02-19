@@ -1,0 +1,238 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            background-color: #222222;
+            width: auto;
+        }
+
+        main {
+            background-color: #f1f1f1;
+            display: flex;
+            height: 90%;
+        }
+
+        header nav {
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .col-1 {
+            flex-basis: 8.33%;
+        }
+
+        .col-2 {
+            flex-basis: 15.66%;
+        }
+
+        .col-3 {
+            flex-basis: 24%;
+        }
+
+        .col-4 {
+            flex-basis: 33.33%;
+        }
+
+        .col-5 {
+            flex-basis: 41.66%;
+        }
+
+        .col-6 {
+            flex-basis: 50%;
+        }
+
+        .col-7 {
+            flex-basis: 58.33%;
+        }
+
+        .col-8 {
+            flex-basis: 66.66%;
+        }
+
+        .col-9 {
+            flex-basis: 75%;
+        }
+
+        .col-10 {
+            flex-basis: 83.33%;
+        }
+
+        .col-11 {
+            flex-basis: 91.66%;
+        }
+
+        .col-12 {
+            flex-basis: 100%;
+        }
+
+        a:link {
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+            color: white;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+
+        .left-nav {
+            display: flex;
+        }
+
+        .left-nav .item {
+            padding: 15px;
+        }
+
+        .right-nav {
+            display: flex;
+        }
+
+        .right-nav .item {
+            padding: 15px;
+        }
+
+        .left {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .left .item {
+            padding-bottom: 15px;
+            display: block;
+        }
+
+        .left .item:link {
+            color: #367bb8;
+        }
+
+        .content {
+            background-color: white;
+            padding: 15px;
+        }
+
+        .right .item {
+            display: flex;
+            margin-left: 120px;
+            margin: 15px;
+            border: #222222 1px solid;
+            border-radius: 15px;
+            width: 250px;
+            height: 150px;
+            background-color: aliceblue;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #555555;
+            text-align: center;
+            padding: 15px;
+            color: f1f1f1;
+        }
+
+        @media only screen and (max-width: 768px) {
+            main {
+                overflow: auto;
+                display: inline-block;
+                height: fit-content;
+            }
+
+            .col-md-3 {
+                width: 24%;
+                float: left;
+            }
+
+            .col-md-9 {
+                width: 67%;
+                float: left;
+
+            }
+
+            .col-md-12 {
+                width: 100%;
+                float: left;
+            }
+
+            .right {
+                background-color: bisque;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .col-sm-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <a href="#" class="item">Logo</a>
+                <a href="#" class="item">Home</a>
+                <a href="#" class="item">About</a>
+                <a href="#" class="item">Projects</a>
+                <a href="#" class="item">Contact</a>
+            </div>
+            <div class="right-nav">
+                <a href="#" class="item">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="left col-3 col-md-3 col-sm-12">
+            <a href="#" class="item">Link</a>
+            <a href="#" class="item">Link</a>
+            <a href="#" class="item">Link</a>
+        </div>
+        <div class="content col-6 col-md-9 col-sm-12">
+            <div class="article">
+                <h1>Welcome</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus, porro ducimus
+                    blanditiis
+                    amet earum et officia a ea quaerat laborum officiis tenetur sapiente id odio magni labore dolorem
+                    quasi?
+                </div>
+            </div>
+            <hr>
+            <div class="article col-3 col-sm-12">
+                <h1>Test</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero, ducimus commodi doloribus
+                    officia
+                    dolore nulla voluptatum corporis officiis modi iusto eveniet quisquam repellendus praesentium
+                    consequatur dolor facere delectus nisi?</div>
+            </div>
+        </div>
+        <div class="right col-md-12">
+            <button class="item">ADS</button>
+            <button class="item">ADS</button>
+        </div>
+    </main>
+    <footer>
+        <div>Footer Text</div>
+    </footer>
+</body>
+
+</html>
