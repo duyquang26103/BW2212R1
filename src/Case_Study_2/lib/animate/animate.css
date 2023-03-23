@@ -1,0 +1,169 @@
+.scroll-announcement {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 8s linear infinite;
+    -webkit-animation: my-animation 8s linear infinite;
+    animation: my-animation 8s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+
+.hide-logo {
+    top: 60%;
+    display: none;
+}
+
+.product-list p {
+    top: 50%;
+}
+
+.container .t-overplay {
+    top: 50%;
+}
+
+.first-product:hover .hide-logo {
+    display: block;
+}
+
+.second-product:hover .hide-logo {
+    display: block;
+}
+
+.third-product:hover .hide-logo {
+    display: block;
+}
+
+.fourth-product:hover .hide-logo {
+    display: block;
+}
+
+.first-product:hover p {
+    transition: 0.5s;
+    top: 47%;
+}
+
+.second-product:hover p {
+    transition: 0.5s;
+    top: 47%;
+}
+
+.third-product:hover p {
+    transition: 0.5s;
+    top: 47%;
+}
+
+.fourth-product:hover p {
+    transition: 0.5s;
+    top: 47%;
+}
+
+.hover-underline {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-change-img-hide {
+    display: none;
+}
+
+.hover-underline:hover+.hover-change-img-dsp {
+    display: none;
+}
+
+.all-products:hover .hover-change-img-hide {
+    display: block;
+}
+
+.hover-zoom {
+    --mdb-image-hover-zoom-transition: all 0.3s linear;
+    --mdb-image-hover-zoom-transform: scale(1.1)
+}
+
+.hover-zoom img,
+.hover-zoom video {
+    transition: var(--mdb-image-hover-zoom-transition)
+}
+
+.hover-zoom:hover img,
+.hover-zoom:hover video {
+    transform: var(--mdb-image-hover-zoom-transform)
+}
+
+
+.picture2 {
+    display: none;
+}
+
+.new-product:hover .picture1 {
+    display: none;
+}
+
+.new-product:hover .picture2 {
+    display: block;
+}

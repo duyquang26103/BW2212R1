@@ -1,0 +1,900 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLO Manner</title>
+    <script src="./script/component/header.js" type="text/javascript" defer></script>
+    <script src="./script/component/footer.js" type="text/javascript" defer></script>
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/newProduct.css" rel="stylesheet">
+    <link href="./lib/animate/animate.css" rel="stylesheet">
+    <link href="./lib/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./lib/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="sticky-top">
+            <header-component></header-component>
+        </header>
+        <main>
+            <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/trangchu_san-pham-ban-chay-nhat-thang_1.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/free-box.png" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/trangchu_san_pham_moi_nhat_trong_thang_2.png" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="container">
+                <div class="row m-5 text-center">
+                    <h1>Danh Mục Sản Phẩm</h1>
+                </div>
+
+                <div class="row product-list">
+                    <div class="bg-image hover-zoom col-lg-3 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="first-product bg-black rounded-2">
+                            <img class="product-img opacity-75 card-img-top z-0 "
+                                src="./img/Polomanor_ao-polo_POLOBASICMAN_281022_22.png" alt="POLOBASICMAN">
+                            <p class="z-1 text-light position-absolute start-50 translate-middle">Polo
+                                trơn Basic
+                            </p>
+                            <img class="hide-logo fontawesome z-1 position-absolute start-50 translate-middle"
+                                src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                        </div>
+                    </div>
+
+                    <div class="bg-image hover-zoom  col-lg-3 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="second-product bg-black rounded-2">
+                            <img class="product-img opacity-75 card-img-top z-0 "
+                                src="./img/Polomanor_ao-polo_Agati.png" alt="POLOBASICMAN">
+                            <p class="z-1 text-light position-absolute start-50 translate-middle">Polo
+                                trơn Basic
+                            </p>
+                            <img class="hide-logo fontawesome z-1 position-absolute start-50 translate-middle"
+                                src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                        </div>
+                    </div>
+
+                    <div class="bg-image hover-zoom  col-lg-3 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="third-product bg-black rounded-2">
+                            <img class="product-img opacity-75 card-img-top z-0 " src="./img/Polomanor_ao-polo_Arlo.png"
+                                alt="POLOBASICMAN">
+                            <p class="z-1 text-light position-absolute start-50 translate-middle">Polo
+                                trơn Basic
+                            </p>
+                            <img class="hide-logo fontawesome z-1 position-absolute start-50 translate-middle"
+                                src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                        </div>
+                    </div>
+
+                    <div class="bg-image hover-zoom  col-lg-3 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="fourth-product bg-black rounded-2">
+                            <img class="product-img opacity-75 card-img-top z-0 "
+                                src="./img/Polomanor_ao-thun_Basicman.png" alt="POLOBASICMAN">
+                            <p class="z-1 text-light position-absolute start-50 translate-middle">Polo
+                                trơn Basic
+                            </p>
+                            <img class="hide-logo fontawesome z-1 position-absolute start-50 translate-middle"
+                                src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="new-product d-flex justify-content-between my-5">
+                        <div>
+                            <h1>Sản Phẩm Mới</h1>
+                        </div>
+                        <div>
+                            <div class="d-flex all-products">
+                                <a class="nav-link me-2 hover-underline" href="#">Xem toàn bộ sản phẩm</a>
+                                <img class="fontawesome hover-change-img-dsp"
+                                    src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                                <img class="fontawesome hover-change-img-hide"
+                                    src="./lib/fontawesome/svgs/solid/arrow-circle-right.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="newCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body h-50 p-0">
+                                            <div class="new-product position-relative">
+                                                <span
+                                                    class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                                    Tiết kiệm 30.000đ
+                                                </span>
+                                                <div class="picture1">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Kaslis_0.png">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Kaslis.png" alt="">
+                                                </div>
+                                                <span
+                                                    class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                                    <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                                </span>
+                                            </div>
+                                            <p class=" py-2 m-0 text-center">Áo Polo Nam Karlis vải CMC phom
+                                                Regular Fit
+                                            </p>
+                                            <p class="text-danger text-center">320.000đ <del
+                                                    class="text-dark">350.000đ</del>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body h-50 p-0">
+                                            <div class="new-product position-relative">
+                                                <span
+                                                    class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                                    Tiết kiệm 30.000đ
+                                                </span>
+                                                <div class="picture1">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Space_0.png">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_1.png" alt="">
+                                                </div>
+                                                <span
+                                                    class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                                    <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                                </span>
+                                            </div>
+                                            <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Space vải CMC
+                                                phom
+                                                Regular Fit
+                                            </p>
+                                            <p class="text-danger text-center">320.000đ <del
+                                                    class="text-dark">350.000đ</del>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body h-50 p-0">
+                                            <div class="new-product position-relative">
+                                                <span
+                                                    class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                                    Tiết kiệm 30.000đ
+                                                </span>
+                                                <div class="picture1">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_2.png">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_3.png" alt="">
+                                                </div>
+                                                <span
+                                                    class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                                    <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                                </span>
+                                            </div>
+                                            <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Rent vải Uni
+                                                phom
+                                                Regular Fit
+                                            </p>
+                                            <p class="text-danger text-center">320.000đ <del
+                                                    class="text-dark">350.000đ</del>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body h-50 p-0">
+                                            <div class="new-product position-relative">
+                                                <span
+                                                    class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                                    Tiết kiệm 30.000đ
+                                                </span>
+                                                <div class="picture1">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Blaro_4.png">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Polo-art-work_5.png"
+                                                        alt="">
+                                                </div>
+                                                <span
+                                                    class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                                    <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                                </span>
+                                            </div>
+                                            <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen
+                                                vải
+                                                CMC
+                                                phom Regular Fit
+                                            </p>
+                                            <p class="text-danger text-center">320.000đ <del
+                                                    class="text-dark">350.000đ</del>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card p-2 border-0">
+                                        <div class="card-body h-50 p-0">
+                                            <div class="new-product position-relative">
+                                                <span
+                                                    class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                                    Tiết kiệm 30.000đ
+                                                </span>
+                                                <div class="picture1">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Jay_6.png">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img class="img-responsive card-img-top"
+                                                        src="./img/new_product/Polomanor_ao-polo_Jay_7.png" alt="">
+                                                </div>
+                                                <span
+                                                    class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                                    <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                                </span>
+                                            </div>
+                                            <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Jay vải CMC
+                                                phom
+                                                Regular Fit
+                                            </p>
+                                        </div>
+                                        <p class="text-danger text-center">320.000đ <del
+                                                class="text-dark">350.000đ</del>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev position-absolute top-50 start-0 translate-middle w-aut"
+                            href="#newBookCarousel" role="button" data-bs-slide="prev">
+                            <p class="carousel-control-prev-icon bg-dark rounded-3 py-5 px-4" aria-hidden="true"></p>
+                        </a>
+                        <a class="carousel-control-next position-absolute top-50 start-100 translate-middle w-aut"
+                            href="#newBookCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark rounded-3 py-5 px-4"
+                                aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="new-product d-flex justify-content-between my-5">
+                        <div>
+                            <h1>Tất Cả Sản Phẩm</h1>
+                        </div>
+                        <div>
+                            <div class="d-flex all-products">
+                                <a class="nav-link me-2 hover-underline" href="#">Xem toàn bộ sản phẩm</a>
+                                <img class="fontawesome hover-change-img-dsp"
+                                    src="./lib/fontawesome/svgs/regular/arrow-alt-circle-right.svg" alt="next">
+                                <img class="fontawesome hover-change-img-hide"
+                                    src="./lib/fontawesome/svgs/solid/arrow-circle-right.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_Space_0.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao1.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Basicman vải CMC phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">299.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 30.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Blaro_4.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Polo-art-work_5.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 41.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-thun_Basicman_2.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao3.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Thun Nam Basicman vải Cotton phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">179.000đ <del class="text-dark">220.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_6.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_arlo_7.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_Space_0.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao1.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Basicman vải CMC phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">299.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 30.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Blaro_4.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Polo-art-work_5.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 41.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-thun_Basicman_2.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao3.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Thun Nam Basicman vải Cotton phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">179.000đ <del class="text-dark">220.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_6.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_arlo_7.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_Space_0.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao1.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Basicman vải CMC phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">299.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 30.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Blaro_4.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Polo-art-work_5.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 41.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-thun_Basicman_2.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao3.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Thun Nam Basicman vải Cotton phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">179.000đ <del class="text-dark">220.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_6.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_arlo_7.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_Space_0.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao1.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Basicman vải CMC phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">299.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 30.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Blaro_4.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/new_product/Polomanor_ao-polo_Polo-art-work_5.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 41.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-thun_Basicman_2.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top" src="./img/all_products/first/ao3.png"
+                                            alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Thun Nam Basicman vải Cotton phom
+                                    Regular Fit
+                                </p>
+                                <p class="text-danger text-center">179.000đ <del class="text-dark">220.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card p-2 border-0">
+                            <div class="card-body h-50 p-0">
+                                <div class="new-product position-relative">
+                                    <span
+                                        class="position-absolute z-1 top-0 start-0 badge bg-danger text-light m-2 rounded-pill">
+                                        Tiết kiệm 51.000đ
+                                    </span>
+                                    <div class="picture1">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_6.png">
+                                    </div>
+                                    <div class="picture2">
+                                        <img class="img-responsive card-img-top"
+                                            src="./img/all_products/first/Polomanor_ao-polo_arlo_7.png" alt="">
+                                    </div>
+                                    <span
+                                        class="position-absolute z-2 bottom-0 end-0 badge bg-danger text-light p-2 m-2 rounded-pill">
+                                        <a class="nav-link" href="#">+ Thêm nhanh</a>
+                                    </span>
+                                </div>
+                                <p class="text-color-kidbook py-2 m-0 text-center">Áo Polo Nam Blaro Màu Đen vải CMC
+                                    phom Regular Fit
+                                </p>
+                                <p class="text-danger text-center">320.000đ <del class="text-dark">350.000đ</del>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="position-relative mb-3">
+                    <img class="product-img card-img-top z-0 " src="./img/8_1_1_1.png">
+                    <div class="z-1 text-light position-absolute start-50 top-50 translate-middle text-center">
+                        <h5>Định vị thương hiệu</h5>
+                        <h1>New class of casual Polo</h1>
+                        <h5>Polomanor định vị sự khác biệt đến từ những chiếc áo Polo đời thường hằng ngày, mỗi sản phẩm
+                            mang đủ 3 yếu tố:</h5>
+                        <h5>Dễ phối - Sang trọng - Tiện lợi</h5>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row d-flex justify-content-center text-center pt-5 pb-5">
+                    <div class="w-75">
+                        <h6>Chúng tôi - Polomanor luôn cố gắng để trở thành lựa chọn hàng đầu mỗi khi người đàn ông cần
+                            khơi
+                            dậy
+                            thần thái</h6>
+                        <h6>PHONG ĐỘ ĐÚNG LÚC</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="juxtapose ">
+                        <img src="./img/phong_do_dung_luc_frame_1.png" />
+                        <img src="./img/phong_do_dung_luc_frame_2.png" />
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="bg-image hover-zoom img-left col-lg-6 col-md-12 col-sm-12 mb-3 position-relative">
+                        <div class="bg-black rounded-2">
+                            <img class="product-img opacity-50 card-img-top z-0 rounded-2"
+                                src="./img/your-style-left.png">
+                        </div>
+
+                        <p class="z-1 text-light position-absolute start-50 top-50 translate-middle text-center fs-4">
+                            Mỗi sản
+                            phẩm
+                            đến tay
+                            bạn là những chất xám và công sức của cả một tập thể phía sau
+                        </p>
+                    </div>
+                    <div class="img-right col-lg-6 col-md-12 col-sm-12 d-flex flex-wrap justify-content-sm-between">
+                        <div class="bg-image hover-zoom col-5 position-relative mb-3 ">
+                            <img class="product-img card-img-top rounded-2" src="./img/img-1-right.png">
+                        </div>
+                        <div class="bg-image hover-zoom col-5 position-relative mb-3 rounded-2">
+                            <img class="product-img card-img-top rounded-2" src="./img/img-2-right.png">
+                        </div>
+                        <div class="bg-image hover-zoom col-12 position-relative mb-3 rounded-2">
+                            <img class="product-img card-img-top rounded-2" src="./img/img-3-right.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-5">
+                    <h1>Khám phá</h1>
+                </div>
+
+                <div class="row d-flex justify-content-between">
+                    <div class="bg-image hover-zoom col-lg-4 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="first-product">
+                            <img class="product-img card-img-top rounded-2" src="./img/explore/polomanor-gram-1.png">
+                            <a class="nav-link" href="https://www.instagram.com/polomanor.vn/">
+                                <h2 class="pt-1">POLO-GRAM</h2>
+                                <p>Nơi sự thanh lịch của những chiếc áo Polo được thể hiện qua các bức ảnh</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-image hover-zoom col-lg-4 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="first-product rounded-2">
+                            <img class="product-img card-img-top rounded-2" src="./img/explore/ong-chu-polo-2.png">
+                            <a class="nav-link" href="https://www.tiktok.com/@polomanor.official">
+                                <h2 class="pt-1">ÔNG CHÚ POLO</h2>
+                                <p>Những chiếc video triệu view đầy thú vị về Ông Chú Polo</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-image hover-zoom col-lg-4 col-md-6 col-sm-12 position-relative mb-3">
+                        <div class="first-product rounded-2">
+                            <img class="product-img card-img-top rounded-2" src="./img/explore/nghien-polo-3.png">
+                            <a class="nav-link" href="https://www.facebook.com/groups/762790127950971">
+                                <h2 class="pt-1">NGHIỆN POLO</h2>
+                                <p>Cộng đồng hơn 100.000 người đam mê những chiếc áo Polo</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        <footer class="bg-light">
+            <footer-component></footer-component>
+        </footer>
+    </div>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
